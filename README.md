@@ -11,9 +11,9 @@
 - 명명 규칙 : 파스칼케이스(예: `PascalCase`)
 - 역할 분담 : 씬 단위 분담, 필요한 요소 각자 만들기.
     - fps캐릭터와 미니맵은 프리펩으로 공유, UI는 각자
-    - 천상(`Assets/UpperWorld/`) : 무릉도원, 이효리
-    - 지상(`Assets/MiddleWorld/`) : 현대, 윤수윤
-    - 지하(`Assets/LowerWorld/`) : 저승, 김영은
+    - 천상(`Assets/Upperworld/`) : 무릉도원, 이효리
+    - 지상(`Assets/Middleworld/`) : 현대, 윤수윤
+    - 지하(`Assets/Lowerworld/`) : 저승, 김영은
 - 커밋 메시지 : 어떤 부분을 변경하였는지 또는 무엇을 하였는지 간략하게 적는 것을 권장.
 
 ---
