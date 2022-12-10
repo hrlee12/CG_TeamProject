@@ -12,17 +12,17 @@ public class SceneLoadKeyDown : MonoBehaviour
 
     void Start()
     {
-        print("SceneLoadKeyDown script start"); // ÄÜ¼Ö È®ÀÎ¿ë Ãâ·Â¹® : ¾ÀÀ» ÇÃ·¹ÀÌÇÒ ¶§ ¾î¶² ½ºÅ©¸³Æ®°¡ ½ÇÇàµÇ¾ú´ÂÁö ³ªÅ¸³¿
+        print("SceneLoadKeyDown script start"); // ì½˜ì†” í™•ì¸ìš© ì¶œë ¥ë¬¸ : ì”¬ì„ í”Œë ˆì´í•  ë•Œ ì–´ë–¤ ìŠ¤í¬ë¦½íŠ¸ê°€ ì‹¤í–‰ë˜ì—ˆëŠ”ì§€ ë‚˜íƒ€ëƒ„
         CurrentScene = gameObject.scene;
     }
 
     void Update()
     {
-        // ÇöÀç ÀÖ´Â ¾ÀÀ¸·Î ÀÌµ¿ÇÏ´Â Å°¸¦ ´­·¶À» °æ¿ì ¾À ÀüÈ¯ ¾È µÇ°Ô ÇÔ
-        // À¯´ÏÆ¼ Å° ÄÚµå Âü°í : https://docs.unity3d.com/kr/2021.3/ScriptReference/KeyCode.html
-        // ´ÜÃàÅ° Á¶ÇÕ : Ctrl + 1, 2, 3
-        // Å°º¸µå À§ÂÊ ¼ıÀÚ Å°, ¼ıÀÚ ÆĞµå ¼ıÀÚ Å° ¸ğµÎ °¡´É
-        // ÁÂ¿ì ÄÁÆ®·Ñ Å° ¸ğµÎ °¡´É
+        // í˜„ì¬ ìˆëŠ” ì”¬ìœ¼ë¡œ ì´ë™í•˜ëŠ” í‚¤ë¥¼ ëˆŒë €ì„ ê²½ìš° ì”¬ ì „í™˜ ì•ˆ ë˜ê²Œ í•¨
+        // ìœ ë‹ˆí‹° í‚¤ ì½”ë“œ ì°¸ê³  : https://docs.unity3d.com/kr/2021.3/ScriptReference/KeyCode.html
+        // ë‹¨ì¶•í‚¤ ì¡°í•© : Ctrl + 1, 2, 3
+        // í‚¤ë³´ë“œ ìœ„ìª½ ìˆ«ì í‚¤, ìˆ«ì íŒ¨ë“œ ìˆ«ì í‚¤ ëª¨ë‘ ê°€ëŠ¥
+        // ì¢Œìš° ì»¨íŠ¸ë¡¤ í‚¤ ëª¨ë‘ ê°€ëŠ¥
         if ((Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl))
             && (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Keypad1)))
         {
