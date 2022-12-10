@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3721913837804008111}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: AxeHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 3570034342668253189}
   - component: {fileID: 5397551003820047054}
   - component: {fileID: 1961096097712178914}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Umbrella_Open
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -121,7 +121,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 938667008889377499}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: joint4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -152,7 +152,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2885262840762600073}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: JNTs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -183,7 +183,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1510076716570051878}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -214,7 +214,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1861805474389288864}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: joint5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -247,9 +247,9 @@ GameObject:
   - component: {fileID: 2373405472049514160}
   - component: {fileID: 2373405472049514163}
   - component: {fileID: 2373405472049514162}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: G1_Yellow
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -308,7 +308,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 620884656836027481}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: joint2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -340,7 +340,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2844795910900572697}
   - component: {fileID: 2373405471169775092}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Little_Ghost2_v1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -391,7 +391,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8357133201008934396}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Props1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -423,7 +423,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 596430058234660230}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: joint1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -456,7 +456,7 @@ GameObject:
   - component: {fileID: 856177198377273592}
   - component: {fileID: 2318640862254949069}
   - component: {fileID: 8020388490343876772}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Umbrella_Closed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -536,7 +536,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8842021695332804813}
   - component: {fileID: 1448927742106836159}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Little_Ghost_2 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -623,7 +623,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1515678665926031522}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: joint3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -672,7 +672,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9212881805557582653}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.55, z: 0.25}
+  m_LocalPosition: {x: 0, y: 0.55, z: 0.042}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 9212881805557683999}
@@ -709,7 +709,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -750,9 +750,9 @@ GameObject:
   - component: {fileID: 9212881805546831583}
   - component: {fileID: 9212881805554264159}
   - component: {fileID: 9212881805552112351}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FPSYellow
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
