@@ -15,6 +15,9 @@
     <figcaption style="text-align: center">[이미지] 지하 씬 구상</figcaption>
 </figure>
 
+## 구현 기능
+- `BigFrontDoor` 오브젝트에 자동문 기능 구현
+
 ## 참고 자료
 &#91;1&#93; 한국민족문화대백과사전(저승설화(─說話)), <a href="http://encykorea.aks.ac.kr/Contents/Item/E0049101" target="_blank">http://encykorea.aks.ac.kr/Contents/Item/E0049101</a>  
 &#91;2&#93; 피처 &#124; &#91;ODD NOTES&#93; 동서양의 사후세계 &#91;No.142&#93;, <a href="https://www.themusical.co.kr/Magazine/Detail?enc_num=Xwi5WvzQtZMz%2BVoVuUUFbQ%3D%3D" target="_blank">https://www.themusical.co.kr/Magazine/Detail?enc_num=Xwi5WvzQtZMz%2BVoVuUUFbQ%3D%3D</a>  
