@@ -15,8 +15,9 @@
     - 천상(`Assets/Upperworld/`) : 무릉도원, 이효리
     - 지상(`Assets/Middleworld/`) : 현대, 윤수윤
     - 지하(`Assets/Lowerworld/`) : 저승, 김영은
-    - FPSCharacter 프리펩 : 김영은
+    - FPSCharacter(1인칭) 프리펩 : 김영은
     - 단축키와 콜라이더 충돌을 포함한 씬 이동 스크립트 : 윤수윤
+    - 인덱스 씬 : 이효리
 - 커밋 메시지 : 어떤 부분을 변경하였는지 또는 무엇을 하였는지 간략하게 적는 것을 권장.
 
 ---
@@ -38,4 +39,8 @@ PPT 제작 : 윤수윤(씬 구상, 협업 환경), 김영은(팀원별 주요 �
 발표 자료 : [컴퓨터그래픽스_진행상황발표_그래픽.pptx](https://docs.google.com/presentation/d/14ZV-yekGSODbI8HuWonp2Sn4wms2TZQP/edit?usp=sharing&ouid=113309621803756900421&rtpof=true&sd=true)  
   
 ### 기말 발표
-예정
+[MEMO.md](https://github.com/hrlee12/CG_TeamProject/blob/main/MEMO.md) 참고  
+발표자 :  
+PPT 제작 :  
+시연 영상 편집 : (녹화는 각자)  
+발표 자료 : [figma - CG_final_presentation](https://www.figma.com/file/8r9lhCqbeqjQodZk2wCTwW/CG_final_presentation?node-id=0%3A1&t=lhpsYwfeWatX9uaP-1)  
