@@ -657,6 +657,7 @@ GameObject:
   - component: {fileID: 9212881805558171935}
   - component: {fileID: 9212881805551686975}
   - component: {fileID: 9212881805547707257}
+  - component: {fileID: 7302041755588607736}
   m_Layer: 0
   m_Name: FirstPersonCharacter
   m_TagString: MainCamera
@@ -737,6 +738,21 @@ Behaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9212881805557582653}
   m_Enabled: 1
+--- !u!114 &7302041755588607736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9212881805557582653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 298ba8fc1fe7a2646957c1273c834b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UpperworldScene: {fileID: 102900000, guid: 161819fcfff485143b6adcc0d9865127, type: 3}
+  MiddleworldScene: {fileID: 102900000, guid: d12217237db36c34a8b408a3ea2f7346, type: 3}
+  LowerworldScene: {fileID: 102900000, guid: f9a69ff60b9df24408d16d19116cb388, type: 3}
 --- !u!1 &9212881805557582655
 GameObject:
   m_ObjectHideFlags: 0
