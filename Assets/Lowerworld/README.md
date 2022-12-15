@@ -17,6 +17,10 @@
 
 ## 구현 기능
 - `BigFrontDoor` 오브젝트에 자동문 기능 구현
+- `RedFlame`, `YellowFlame` 프리펩 생성 : 서로 다른 두 이미지를 합쳐 보여주는 셰이더 적용. **구현 요구사항 중 어느 항목에 해당하는지 몰라 표시하지 않았음**
+- 미니맵 구현
+- `Terrain`에 서로 다른 3가지 이상의 Texture 적용
+- `Terrain`에 높이가 일정한 평지, 높이가 smooth된 지형, 브러시를 이용해 높낮이를 수정한 지형 존재
 
 ## 참고 자료
 &#91;1&#93; 한국민족문화대백과사전(저승설화(─說話)), <a href="http://encykorea.aks.ac.kr/Contents/Item/E0049101" target="_blank">http://encykorea.aks.ac.kr/Contents/Item/E0049101</a>  
