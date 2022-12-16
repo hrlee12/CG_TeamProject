@@ -1,4 +1,4 @@
-Shader "Midde/CobbleWall"
+Shader "Middle/CobbleWall"
 {
     Properties
     {

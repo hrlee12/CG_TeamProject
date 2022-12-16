@@ -1,4 +1,4 @@
-Shader "Custom/GateWallSha"
+Shader "Middle/GateSha"
 {
     Properties
     {
