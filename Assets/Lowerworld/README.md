@@ -17,13 +17,18 @@
 
 ## 구현 기능
 - `BigFrontDoor` 오브젝트에 자동문 기능 구현
-- `RedFlame`, `YellowFlame` 프리펩 생성 : 서로 다른 두 이미지를 합쳐 보여주는 셰이더 적용. **구현 요구사항 중 어느 항목에 해당하는지 몰라 표시하지 않았음**
+- `RedFlame`, `YellowFlame` 프리펩 생성 : 서로 다른 두 이미지를 합쳐 보여주는 셰이더 적용. **강의자료 5주차B 참고했으나 구현 요구사항 중 어느 항목에 해당하는지 몰라 표시하지 않았음**
 - 미니맵 구현
 - `Terrain`에 서로 다른 3가지 이상의 Texture 적용
 - `Terrain`에 높이가 일정한 평지, 높이가 smooth된 지형, 브러시를 이용해 높낮이를 수정한 지형 존재
 
-## 참고 자료
-&#91;1&#93; 한국민족문화대백과사전(저승설화(─說話)), <a href="http://encykorea.aks.ac.kr/Contents/Item/E0049101" target="_blank">http://encykorea.aks.ac.kr/Contents/Item/E0049101</a>  
-&#91;2&#93; 피처 &#124; &#91;ODD NOTES&#93; 동서양의 사후세계 &#91;No.142&#93;, <a href="https://www.themusical.co.kr/Magazine/Detail?enc_num=Xwi5WvzQtZMz%2BVoVuUUFbQ%3D%3D" target="_blank">https://www.themusical.co.kr/Magazine/Detail?enc_num=Xwi5WvzQtZMz%2BVoVuUUFbQ%3D%3D</a>  
-&#91;3&#93; &#91;취재파일&#93; 저승사자는 정말 3인조일까?, <a href="https://news.sbs.co.kr/news/endPage.do?news_id=N1004572254" target="_blank">https://news.sbs.co.kr/news/endPage.do?news_id=N1004572254</a>  
-&#91;4&#93; 「한국지옥 연구-무(巫)의 저승」(조흥윤,『샤머니즘 연구』 창간호,한국샤머니즘학회,문덕사,1999)
+## 구현 및 오류 해결 참고 자료
+- &#91;1&#93; #3 에임위에 있는 오브젝트 이름 출력 &#91;Raycast&#93; (6/6), <a href="https://coding-server.tistory.com/m/7" target="_blank">https://coding-server.tistory.com/m/7</a>
+- &#91;2&#93; &#91;Unity 2020.3 LTS&#93; TextMeshPro 한글 네모로 출력 해결, <a href="https://blaupowder.tistory.com/107" target="_blank">https://blaupowder.tistory.com/107</a>  
+- &#91;3&#93; 유니티에서 gameObject가 비활성인지 확인 및 이벤트., <a href="https://boxwitch.tistory.com/entry/%EC%9C%A0%EB%8B%88%ED%8B%B0-gameObject-%ED%99%9C%EC%84%B1-activeSelf" target="_blank">https://boxwitch.tistory.com/entry/유니티-gameObject-활성-activeSelf</a>
+
+## 컨셉 참고 자료
+- &#91;1&#93; 한국민족문화대백과사전(저승설화(─說話)), <a href="http://encykorea.aks.ac.kr/Contents/Item/E0049101" target="_blank">http://encykorea.aks.ac.kr/Contents/Item/E0049101</a>  
+- &#91;2&#93; 피처 &#124; &#91;ODD NOTES&#93; 동서양의 사후세계 &#91;No.142&#93;, <a href="https://www.themusical.co.kr/Magazine/Detail?enc_num=Xwi5WvzQtZMz%2BVoVuUUFbQ%3D%3D" target="_blank">https://www.themusical.co.kr/Magazine/Detail?enc_num=Xwi5WvzQtZMz%2BVoVuUUFbQ%3D%3D</a>  
+- &#91;3&#93; &#91;취재파일&#93; 저승사자는 정말 3인조일까?, <a href="https://news.sbs.co.kr/news/endPage.do?news_id=N1004572254" target="_blank">https://news.sbs.co.kr/news/endPage.do?news_id=N1004572254</a>  
+- &#91;4&#93; 「한국지옥 연구-무(巫)의 저승」(조흥윤,『샤머니즘 연구』 창간호,한국샤머니즘학회,문덕사,1999)
