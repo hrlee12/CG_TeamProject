@@ -21,11 +21,13 @@
 - 미니맵 구현
 - `Terrain`에 서로 다른 3가지 이상의 Texture 적용
 - `Terrain`에 높이가 일정한 평지, 높이가 smooth된 지형, 브러시를 이용해 높낮이를 수정한 지형 존재
+- `Blade` 프리펩에 Metal, Smooth 셰이더 적용
 
 ## 구현 및 오류 해결 참고 자료
 - &#91;1&#93; #3 에임위에 있는 오브젝트 이름 출력 &#91;Raycast&#93; (6/6), <a href="https://coding-server.tistory.com/m/7" target="_blank">https://coding-server.tistory.com/m/7</a>
 - &#91;2&#93; &#91;Unity 2020.3 LTS&#93; TextMeshPro 한글 네모로 출력 해결, <a href="https://blaupowder.tistory.com/107" target="_blank">https://blaupowder.tistory.com/107</a>  
 - &#91;3&#93; 유니티에서 gameObject가 비활성인지 확인 및 이벤트., <a href="https://boxwitch.tistory.com/entry/%EC%9C%A0%EB%8B%88%ED%8B%B0-gameObject-%ED%99%9C%EC%84%B1-activeSelf" target="_blank">https://boxwitch.tistory.com/entry/유니티-gameObject-활성-activeSelf</a>
+- &#91;4&#93; Unity Shader - Alpha 이론 & 문제 해결, <a href="https://darkcatgame.tistory.com/31" target="_blank">https://darkcatgame.tistory.com/31</a>
 
 ## 컨셉 참고 자료
 - &#91;1&#93; 한국민족문화대백과사전(저승설화(─說話)), <a href="http://encykorea.aks.ac.kr/Contents/Item/E0049101" target="_blank">http://encykorea.aks.ac.kr/Contents/Item/E0049101</a>  
