@@ -4,7 +4,7 @@
   
 팀명 : 그래픽  
 팀원 : **이효리**, 김영은, 윤수윤  
-강의자료 : <a href="https://o365karts-my.sharepoint.com/:o:/g/personal/sva768_office_karts_ac_kr/En_H1gIFwwxNjH9ESQYVR8oBcq0rV4gtflej1NnExKSKXw?e=eDpeQJ" target="_blank">Share_ComputerGraphics_LD_2022Q3</a>
+강의자료 : <a href="https://o365karts-my.sharepoint.com/:o:/g/personal/sva768_office_karts_ac_kr/En_H1gIFwwxNjH9ESQYVR8oBcq0rV4gtflej1NnExKSKXw?e=eDpeQJ" target="_blank" title="2022년 2학기 심화전공 컴퓨터그래픽스 강의자료">Share_ComputerGraphics_LD_2022Q3</a>
   
 ---
   
@@ -39,8 +39,9 @@ PPT 제작 : 윤수윤(씬 구상, 협업 환경), 김영은(팀원별 주요 �
 발표 자료 : [컴퓨터그래픽스_진행상황발표_그래픽.pptx](https://docs.google.com/presentation/d/14ZV-yekGSODbI8HuWonp2Sn4wms2TZQP/edit?usp=sharing&ouid=113309621803756900421&rtpof=true&sd=true)  
   
 ### 기말 발표
-[MEMO.md](https://github.com/hrlee12/CG_TeamProject/blob/main/MEMO.md) 참고  
-발표자 :  
-PPT 제작 :  
-시연 영상 편집 : (녹화는 각자)  
+논의 사항 : [MEMO.md](MEMO.md) 참고  
+자세한 구현 사항 : [Requirements.md](Requirements.md) 참고  
+발표자 : 이효리  
+PPT 제작 : 김영은  
+시연 영상 편집 : 윤수윤(녹화는 각자)  
 발표 자료 : [figma - CG_final_presentation](https://www.figma.com/file/8r9lhCqbeqjQodZk2wCTwW/CG_final_presentation?node-id=0%3A1&t=lhpsYwfeWatX9uaP-1)  
