@@ -22,6 +22,7 @@
 - `Terrain`에 서로 다른 3가지 이상의 Texture 적용
 - `Terrain`에 높이가 일정한 평지, 높이가 smooth된 지형, 브러시를 이용해 높낮이를 수정한 지형 존재
 - `Blade` 프리펩에 Metal, Smooth 셰이더 적용
+- 화면상에 표시되는 UI로 씬에 대한 각종 정보 제공
 
 ## 구현 및 오류 해결 참고 자료
 - &#91;1&#93; #3 에임위에 있는 오브젝트 이름 출력 &#91;Raycast&#93; (6/6), <a href="https://coding-server.tistory.com/m/7" target="_blank">https://coding-server.tistory.com/m/7</a>

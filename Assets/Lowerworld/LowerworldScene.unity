@@ -468,7 +468,7 @@ Transform:
   - {fileID: 1940791886}
   - {fileID: 937175319}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &90169546
 Mesh:
@@ -3545,7 +3545,7 @@ Transform:
   - {fileID: 619776922}
   - {fileID: 591305850}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &510625819
 Mesh:
@@ -4565,7 +4565,7 @@ Transform:
   - {fileID: 1813333051}
   - {fileID: 1116184002}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &840914376
 PrefabInstance:
@@ -10256,7 +10256,12 @@ MonoBehaviour:
     : \uC11C\uB85C \uB2E4\uB978 \uB450 \uC774\uBBF8\uC9C0\uB97C \uD569\uCE5C \uBD88\uAF43
     \uC170\uC774\uB354(5\uC8FC\uCC28B \uAC15\uC758\uC790\uB8CC \uCC38\uACE0). \uBD89\uC740\uC0C9\uACFC
     \uB178\uB780\uC0C9 \uBD88\uAF43\uC758 \uC170\uC774\uB354\uAC00 \uC11C\uB85C \uB2E4\uB984.\r\n-
-    \uCE7C\uC0B0\uC9C0\uC625 \uCE7C\uB0A0 : Metal, Smooth \uC170\uC774\uB354 \uC801\uC6A9"
+    \uC5BC\uC74C\uC9C0\uC625 \uC5BC\uC74C : NormalMap, Lerp \uC801\uC6A9. \uC218\uC5C5\uC2DC\uAC04\uC5D0
+    \uBC30\uC6B0\uC9C0 \uC54A\uC558\uC73C\uB098 \uD544\uC694\uD574\uC11C \uBC18\uD22C\uBA85\uD558\uAC8C
+    \uB9CC\uB4E6\r\n- \uCE7C\uC0B0\uC9C0\uC625 \uCE7C\uB0A0 : Metal, Smooth \uC170\uC774\uB354
+    \uC801\uC6A9\r\n\r\n\uB0A8\uC740 \uD560\uC77C\r\n- \uC170\uC774\uB354 \uB2E4\uB8E8\uAE30
+    - 7. \uD751\uBC31 \uC170\uC774\uB354\r\n- Image Effect Shader - 1, 3, 4, 5\r\n-
+    \uB9F5 \uB05D\uC5D0 \uC52C \uC774\uB3D9 \uCF5C\uB77C\uC774\uB354 \uCD94\uAC00"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2f7057cd1fdbc71438f8d4530f5cfd8f, type: 2}
   m_sharedMaterial: {fileID: -6487288081362139416, guid: 2f7057cd1fdbc71438f8d4530f5cfd8f, type: 2}
@@ -14490,7 +14495,7 @@ Transform:
   - {fileID: 1007689138}
   - {fileID: 149685545}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2117333733
 PrefabInstance:
