@@ -15,3 +15,11 @@
 키보드 조작으로 씬을 전환함과 함께 충돌하면 씬을 전환할 수 있는 입구를 동선 마지막에 각각 만듦.  
 
 ![천상 구상 그림](https://user-images.githubusercontent.com/89967438/203480520-2bbabf34-3edf-4eed-a905-c6729dbf6657.png)
+
+## 구현기능
+terrain :  raise or lower terrain, smooth height, set height, paing texture 기능 사용하여 지형 만듦.
+water를 활용하여 강을 표현함. 
+windzone 을 활용하여 바람 효과를 부여함.
+peach tree의 peach에 애니메이션 기능을 부여해서 복숭아가 떨어지는 효과를 냄. Animator 컴포넌트의 speed 속성을 충돌판단으로 제어하여 재생, 정지 기능을 구현함.
+음영이 분절적인 셰이더를 만들어 수박에게 적용함. 
+외곽선을 표시하는 동시에 음영이 분절적으로 보인느 셰이더를 만들어 원숭이 캐릭터(MrMo_A)에게 적용함. 
