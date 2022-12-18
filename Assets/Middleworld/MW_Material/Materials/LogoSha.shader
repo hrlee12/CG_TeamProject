@@ -4,6 +4,7 @@ Shader "Middle/LogoSha"
     {
         _Color("Color", Color) = (1,1,1,1)
         _MainTex("Albedo (RGB)", 2D) = "white" {}
+        _Brightness("Brightness", Range(-1,1)) = 0
     }
         SubShader
     {
@@ -39,7 +40,7 @@ Shader "Middle/LogoSha"
         // 2pass
         cull back // 다시 돌리기
         CGPROGRAM
-        #pragma surface surf Lambert
+        #pragma surface surf Standard fullforwardshadows
 
         sampler2D _MainTex;
 
@@ -47,11 +48,14 @@ Shader "Middle/LogoSha"
         {
             float2 uv_MainTex;
         };
+
         fixed4 _Color;
-        void surf(Input IN, inout SurfaceOutput o)
+        float _Brightness;
+
+        void surf(Input IN, inout SurfaceOutputStandard o)
         {
             fixed4 c = tex2D(_MainTex, IN.uv_MainTex) * _Color;
-            o.Albedo = c.rgb;
+            o.Albedo = c.rgb + _Brightness;
             o.Alpha = c.a;
         }
         ENDCG
