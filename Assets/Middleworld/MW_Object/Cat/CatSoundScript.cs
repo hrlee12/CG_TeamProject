@@ -29,10 +29,12 @@ public class CatSoundScript : MonoBehaviour
             if (isPlay)
             {
                 Audio.Play();
+                print(Audio.name + " audio play");
             }
             else
             {
                 Audio.Stop();
+                print(Audio.name + " adio stop");
             }
         }
     }
