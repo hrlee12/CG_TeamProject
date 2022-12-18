@@ -33,4 +33,4 @@
 - 텍스쳐 만들어서 폭포 구현함.   
 
 
-
+캡처본 : https://docs.google.com/presentation/d/1pojmn7UXnLo7MxQzgU5jRAzYVDl_ufBacu_ZVTAAPNc/edit?usp=sharing
