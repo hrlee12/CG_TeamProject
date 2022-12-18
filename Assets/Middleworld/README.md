@@ -20,3 +20,4 @@
 - 콘크리트 바닥을 재현 가능한 텍스쳐 사용
 - 자연스러운 지형 설정
 - 진행상황 체크리스트 구글독스: https://docs.google.com/document/d/1Pix7kG4CDzx8j5JSbnnrNLsIYUumFF43/edit?usp=sharing&ouid=114384120020419400009&rtpof=true&sd=true
+- PPT 사진&설명 구글프레젠테이션: https://docs.google.com/presentation/d/1Q2eliGvfZ-qwq99sizxPWHq7OJ_i6jzStuy6QKthtR4/edit?usp=sharing
