@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: waterfall
-  m_Shader: {fileID: 4800000, guid: c424c2e1c2859a3499601db6f7dca502, type: 3}
+  m_Shader: {fileID: 4800000, guid: f45fbb7ed0d8c3748a985a09ba3fee71, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -44,11 +44,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex1:
-        m_Texture: {fileID: 2800000, guid: b2d57ccff5c8b304eb40a8fa46050321, type: 3}
+        m_Texture: {fileID: 2800000, guid: e27fa5c18c00d7049ab5868378144205, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex2:
-        m_Texture: {fileID: 2800000, guid: 366e1c004135f434e88ac5a02fa9b1d6, type: 3}
+        m_Texture: {fileID: 2800000, guid: 6a66e5f117150ca4697ec370cdec0a79, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
