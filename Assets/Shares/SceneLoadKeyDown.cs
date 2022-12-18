@@ -9,11 +9,12 @@ public class SceneLoadKeyDown : MonoBehaviour
     public Object MiddleworldScene;
     public Object LowerworldScene;
     Scene CurrentScene;
+    int NowSceneIndex;
 
     void Start()
     {
         print("SceneLoadKeyDown script start"); // 콘솔 확인용 출력문 : 씬을 플레이할 때 어떤 스크립트가 실행되었는지 나타냄
-        CurrentScene = gameObject.scene;
+        NowSceneIndex = SceneManager.GetActiveScene().buildIndex;
     }
 
     void Update()
@@ -26,28 +27,28 @@ public class SceneLoadKeyDown : MonoBehaviour
         if ((Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl))
             && (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Keypad1)))
         {
-            if (CurrentScene.name != UpperworldScene.name)
+            if (NowSceneIndex != 0)
             {
                 print("go to Upperworld");
-                SceneManager.LoadScene(UpperworldScene.name);
+                SceneManager.LoadScene(0);
             }
         }
         if ((Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl))
             && (Input.GetKeyDown(KeyCode.Alpha2) || Input.GetKeyDown(KeyCode.Keypad2)))
         {
-            if (CurrentScene.name != MiddleworldScene.name)
+            if (NowSceneIndex != 1)
             {
                 print("go to Middleworld");
-                SceneManager.LoadScene(MiddleworldScene.name);
+                SceneManager.LoadScene(1);
             }
         }
         if ((Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl))
             && (Input.GetKeyDown(KeyCode.Alpha3) || Input.GetKeyDown(KeyCode.Keypad3)))
         {
-            if (CurrentScene.name != LowerworldScene.name)
+            if (NowSceneIndex != 2)
             {
                 print("go to Lowerworld");
-                SceneManager.LoadScene(LowerworldScene.name);
+                SceneManager.LoadScene(2);
             }
         }
     }
