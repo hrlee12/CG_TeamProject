@@ -24,7 +24,7 @@ Shader "My/NPR/2Pass_Outline+Discontinuous"
         };
 
         void vert(inout appdata_full v){
-            v.vertex.xyz += v.normal.xyz*0.1;
+            v.vertex.xyz += v.normal.xyz*0.01;
         }
 
         void surf (Input IN, inout SurfaceOutput o) 
