@@ -15,7 +15,8 @@
 
 
 
-## 📘 필요 작업
+## 📘 필요 작업&기타 사항
 - 유니티 에셋 스토어의 패키지를 주로 활용, 부수적으로 3D model을 다운로드 받을 수 있음
 - 콘크리트 바닥을 재현 가능한 텍스쳐 사용
 - 자연스러운 지형 설정
+- 진행상황 체크리스트 구글독스: https://docs.google.com/document/d/1Pix7kG4CDzx8j5JSbnnrNLsIYUumFF43/edit?usp=sharing&ouid=114384120020419400009&rtpof=true&sd=true
