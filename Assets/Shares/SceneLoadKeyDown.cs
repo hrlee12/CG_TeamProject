@@ -8,6 +8,8 @@ public class SceneLoadKeyDown : MonoBehaviour
     public Object UpperworldScene;
     public Object MiddleworldScene;
     public Object LowerworldScene;
+    public Object IndexScene;
+
     Scene CurrentScene;
     int NowSceneIndex;
 
@@ -51,5 +53,15 @@ public class SceneLoadKeyDown : MonoBehaviour
                 SceneManager.LoadScene(2);
             }
         }
+        if (Input.GetKey(KeyCode.U))
+        {
+            if (NowSceneIndex != 3)
+            {
+                print("go to Index Scene");
+                SceneManager.LoadScene(3);
+            }
+        }
+
+
     }
 }
