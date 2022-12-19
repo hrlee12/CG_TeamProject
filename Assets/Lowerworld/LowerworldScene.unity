@@ -14603,7 +14603,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1647466068}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -14649,7 +14649,8 @@ MonoBehaviour:
     \uC9C0\uC625\uC758 \uB192\uC774\uB97C \uC870\uC808\uD574 \uC6B8\uD241\uBD88\uD241\uD558\uAC8C
     \uB9CC\uB4E4\uC5C8\uACE0, \uAE38\uC758 \uB05D\uC5D0 \uC788\uB294 \uAC08\uB9BC\uAE38\uC5D0\uC11C
     smooth \uC0AC\uC6A9\r\n- \uB300\uBB38 \uC55E \uB9DD\uC790\uB4E4 : \uD751\uBC31
-    \uC170\uC774\uB354 \uC801\uC6A9\r\n- \uB300\uBB38 : \uC790\uB3D9\uBB38 \uAE30\uB2A5\r\n-
+    \uC170\uC774\uB354 \uC801\uC6A9\r\n- \uB300\uBB38 : \uC790\uB3D9\uBB38 \uAE30\uB2A5(\uD68C\uC804,
+    \uC560\uB2C8\uBA54\uC774\uC158 \uC7AC\uC0DD \uC21C\uC11C \uCEE8\uD2B8\uB864)\r\n-
     \uB300\uBB38 \uAE30\uB465(Tree.mat) : \uC778\uC2A4\uD399\uD130 \uD1B5\uD55C \uBC1D\uAE30
     \uC870\uC808 \uAE30\uB2A5, \uAE30\uBCF8\uAC12 -0.12\r\n- \uBD88\uC9C0\uC625 :
     3D \uC0AC\uC6B4\uB4DC \uD6A8\uACFC \uCD94\uAC00\r\n- \uBD88\uC9C0\uC625 \uBD88\uAF43
@@ -14660,10 +14661,12 @@ MonoBehaviour:
     \uBC30\uC6B0\uC9C0 \uC54A\uC558\uC73C\uB098 \uD544\uC694\uD574\uC11C \uBC18\uD22C\uBA85\uD558\uAC8C
     \uB9CC\uB4E6\r\n- \uCE7C\uC0B0\uC9C0\uC625 \uCE7C\uB0A0 : Metal, Smooth \uC170\uC774\uB354
     \uC801\uC6A9\r\n- \uC804\uB9DD\uB300 : Invert, Gray, Blend, Overlay \uB124 \uAC00\uC9C0
-    \uC774\uBBF8\uC9C0 \uC774\uD399\uD2B8 \uC170\uC774\uB354 \uCCB4\uD5D8 \uAC00\uB2A5\r\n-
-    \uAC08\uB9BC\uAE38 : \uBA54\uC26C\uC2A4\uD06C\uB9BD\uD2B8\uB85C \uC0DD\uC131\uD55C
-    \uB2E4\uC774\uC544\uBAAC\uB4DC, \uBC14\uB2E5\uC5D0 \uC52C \uC774\uB3D9 \uC2A4\uD06C\uB9BD\uD2B8
-    \uC801\uC6A9\uB41C \uCF5C\uB77C\uC774\uB354"
+    \uC774\uBBF8\uC9C0 \uC774\uD399\uD2B8 \uC170\uC774\uB354 \uCCB4\uD5D8 \uAC00\uB2A5(\uBBF8\uB2C8\uB9F5\uC5D0
+    \uC801\uC6A9)\r\n- \uAC08\uB9BC\uAE38 : \uBA54\uC26C\uC2A4\uD06C\uB9BD\uD2B8\uB85C
+    \uC0DD\uC131\uD55C \uB2E4\uC774\uC544\uBAAC\uB4DC, \uBC14\uB2E5\uC5D0 \uC52C
+    \uC774\uB3D9 \uC2A4\uD06C\uB9BD\uD2B8 \uC801\uC6A9\uB41C \uCF5C\uB77C\uC774\uB354\r\n-
+    \uD504\uB9AC\uD3A9 : \uB300\uBB38, \uBD88\uC9C0\uC625 \uBD88\uAF43, \uC5BC\uC74C\uC9C0\uC625
+    \uC5BC\uC74C, \uCE7C\uC0B0\uC9C0\uC625 \uCE7C\uB0A0, FPS\uCE90\uB9AD\uD130"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2f7057cd1fdbc71438f8d4530f5cfd8f, type: 2}
   m_sharedMaterial: {fileID: -6487288081362139416, guid: 2f7057cd1fdbc71438f8d4530f5cfd8f, type: 2}
@@ -14690,10 +14693,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
+  m_fontSize: 34
   m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
