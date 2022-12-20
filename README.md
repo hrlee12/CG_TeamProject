@@ -2,10 +2,19 @@
   
 ## 2022년 2학기 심화전공 컴퓨터그래픽스 팀 프로젝트  
   
-팀명 : 그래픽  
-팀원 : **이효리**, 김영은, 윤수윤  
-강의자료 : <a href="https://o365karts-my.sharepoint.com/:o:/g/personal/sva768_office_karts_ac_kr/En_H1gIFwwxNjH9ESQYVR8oBcq0rV4gtflej1NnExKSKXw?e=eDpeQJ" target="_blank" title="2022년 2학기 심화전공 컴퓨터그래픽스 강의자료">Share_ComputerGraphics_LD_2022Q3</a>
-  
+- 팀명 : 그래픽
+- 팀원 : **이효리**, 김영은, 윤수윤
+- 구현 요구사항 수행 기록 : [Requirements.md](Requirements.md)
+- 발표 자료 : [figma - CG_final_presentation](https://www.figma.com/file/8r9lhCqbeqjQodZk2wCTwW/CG_final_presentation?node-id=0%3A1&t=lhpsYwfeWatX9uaP-1)
+- 시연 영상 링크 : <https://drive.google.com/file/d/1fuCmhOQg1AuBwjHBmOZt38tTjsP-1Xag/view?usp=sharing>
+- 빌드 파일 다운로드 주소 : <https://drive.google.com/file/d/1kPUo3OziXiTdYXZfL54-XIMUnN5O2sFe/view?usp=sharing>
+- 강의자료 : <a href="https://o365karts-my.sharepoint.com/:o:/g/personal/sva768_office_karts_ac_kr/En_H1gIFwwxNjH9ESQYVR8oBcq0rV4gtflej1NnExKSKXw?e=eDpeQJ" target="_blank" title="2022년 2학기 심화전공 컴퓨터그래픽스 강의자료">Share_ComputerGraphics_LD_2022Q3</a>
+
+---
+
+## 조작 방법
+- 씬 이동 : 단축키는 `Ctrl + 1,2,3`이며 좌우 컨트롤 키와 키패드, 숫자패드의 숫자 키 모두 가능하다. 에디터로 실행할 때는 키패드 숫자키를 누르면 에디터 단축키와 겹쳐 제대로 실행되지 않을 수 있으므로 숫자 패드 숫자 키를 누르는 것을 권장한다. 인덱스 씬의 단축키는 `U`이다.
+
 ---
   
 ## 협업 방식
@@ -22,12 +31,7 @@
 
 ---
 
-## 공통 사항
-- 런타임 중 씬 이동은 `Ctrl+방향키` 또는 `Ctrl+숫자키`이며 각 씬의 상하개념에 따라 단축키 부여 : 하나의 스크립트를 공용으로 쓰기로 했기 때문에 모든 씬에서 단축키 구성은 동일하다.
-
----
-
-## 주의 사항
+## 편집 시 주의 사항
 유니티 에디터를 사용하지 않고 프로젝트 내의 파일을 삭제할 경우, 해당 파일과 같은 이름을 갖는 `.meta` 파일도 함께 삭제해야 추후 에디터를 실행할 때 오류가 발생하지 않는다. 새 파일을 추가하는 것은 괜찮다.
 
 ---
